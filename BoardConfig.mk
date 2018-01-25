@@ -106,7 +106,6 @@ TARGET_USES_ION := true
 USE_OPENGL_RENDERER := true
 
 # Filesystem
-TARGET_ANDROID_FILESYSTEM_CONFIG_H := $(LOCAL_PATH)/fs_config/android_filesystem_config.h
 TARGET_FS_CONFIG_GEN := device/google/shamrock/config.fs
 
 # FM
