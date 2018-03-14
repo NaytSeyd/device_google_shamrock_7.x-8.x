@@ -87,9 +87,9 @@ BOARD_USES_QCNE := true
 TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 TARGET_HW_DISK_ENCRYPTION := true
 
-# Cyanogen Hardware
-BOARD_HARDWARE_CLASS += hardware/cyanogen/cmhw
-BOARD_USES_CYANOGEN_HARDWARE := true
+# Lineage Hardware
+BOARD_HARDWARE_CLASS += hardware/lineage/lineagehw
+BOARD_USES_LINEAGE_HARDWARE := true
 
 # Dexpreopt
 WITH_DEXPREOPT := true
@@ -106,7 +106,7 @@ TARGET_USES_ION := true
 USE_OPENGL_RENDERER := true
 
 # Filesystem
-TARGET_FS_CONFIG_GEN := device/google/shamrock/config.fs
+TARGET_FS_CONFIG_GEN := device/google/shamrock/fs_config/config.fs
 
 # FM
 AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
