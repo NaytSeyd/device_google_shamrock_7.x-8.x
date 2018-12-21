@@ -134,10 +134,10 @@ BOARD_RAMDISK_OFFSET := 0x01000000
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 ENABLE_CPUSETS := true
 TARGET_KERNEL_SOURCE := kernel/google/shamrock
-TARGET_KERNEL_CONFIG := lineageos_shamrock_defconfig
+TARGET_KERNEL_CONFIG := OneX_shamrock_defconfig
 TARGET_KERNEL_ARCH := arm
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-eabi-
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
+# TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-eabi-
+# KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
 
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
